@@ -1,0 +1,101 @@
+* {
+    font-family: 'Acme', sans-serif;
+}
+
+body {
+    background-color: #0d456d;
+    margin: 20px 0 0 0;
+    color: #DBDBD9;
+}
+
+header {
+    background-color: #fff;
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    line-height: 2px;
+}
+
+h1.titre {
+    font-size: 100px;
+    margin-top: 140px;
+    text-transform: uppercase;
+}
+
+h3.slogan {
+    font-size: 35px;
+    font-style: italic;
+}
+
+.IMC {
+    max-width: 400px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+h1 {
+    text-align: center;
+}
+.intro {
+    text-align: center;
+    color: black;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input[type="number"] {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+p {
+    text-align: center;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.droits {
+    text-align: center;
+}
+.gauches {
+    text-align: center;
+}
+
+form{
+    max-width: 400px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Pied de page */
+
+footer p {
+    text-align: center;
+    color: #373737;
+    padding: 10px;
+}
+
+/* fin de pied de page */

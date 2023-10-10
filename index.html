@@ -1,0 +1,92 @@
+<!DOCTYPE html> 
+<html>
+    <head>
+        <title>Docto YOB!</title>
+        
+        <!-- lier la page html avec le css pour ajouter le design -->
+        <link rel="stylesheet"  href="CSS/style.css">
+        <script src="Javascript/base.js"></script>
+        
+
+        <!-- ajouter une police d'ecriture -->
+        <link href="https://fonts.googleapis.com/css2?family=Acme&display=swap" rel="stylesheet">
+
+        <!-- je prend en compte les accents -->
+        <meta charset="utf-8">
+    </head>
+    <body>
+
+        <!-- Balise pour le haut de page -->
+        <header>
+            <!-- Titre de la page -->
+            <h1 class="titre">Docteur YOB 💉</h1>
+
+            <!-- Slogan -->
+            <h3 class="slogan">"Un RDV qui vous dira tout sur votre IMC" </h3>
+
+        </header>
+<br>
+<br>
+<br>
+<br>
+            <p class="droits">L'IMC est un bon indicateur de la corpulence globale d'un individu 
+                <br>et des risques associés aux problèmes de poids, comme le développement d'une obésité, d'un diabète ou de maladies cardiovasculaires.</p>
+            <p class="gauches">Ici vous pourrais calculer votre IMC et ensuite prendre un rendez vous suite a vos resultat</p>
+            <br>
+            <br>
+        <!-- <div class="row mx-md-n5">
+            <div class="col px-md-5"><div class="p-3 border bg-light">L'IMC est un bon indicateur de la corpulence globale d'un individu et des risques associés aux problèmes de poids, comme le développement d'une obésité, d'un diabète ou de maladies cardiovasculaires.</div></div>
+            <div class="col px-md-5"><div class="p-3 border bg-light">Avec mon site vous pourrais calculer votre IMC et ensuite prendre un rendez vous suite a vos resultat</div></div>
+          </div> -->
+          <!-- fonction qui permets de calculer L'imc -->
+
+          <div class="IMC">
+            <h1 class="intro">Calcul de l'IMC</h1>
+            <label for="age">Âge (en années)</label>
+            <input type="number" id="age" placeholder="Entrez votre âge">
+            <label for="taille">Taille (en centimètres)</label>
+            <input type="number" id="taille" placeholder="Entrez votre taille">
+            <label for="poids">Poids (en kilogrammes)</label>
+            <input type="number" id="poids" placeholder="Entrez votre poids">
+            <button onclick="calculerIMC()">Calculer l'IMC</button>
+           <p> <input type="text" id="resultat" enabled required minlength="4" maxlength="10" size="30" ></p>
+           <p> <input type="text" id="phrases" enabled required minlength="4" maxlength="10" size="50" ></p>                         
+        </div>
+        <br>
+        <br>
+
+        <!-- Formulaire -->
+        <form action="/ma-page-de-traitement" method="post">
+            <h1 class="intro">Remplisser ce formulaire pour vous prendre un rdv </h1>
+            <ul>
+              <li>
+                <label for="name">RDV&nbsp;:</label>
+                <input type="datetime-local" id="name" name="user_name" />
+              </li>
+              <br>
+                <label for="name">Nom et Prénom&nbsp;:</label>
+                <input type="text" id="name" name="user_name" />
+              </li>
+              <li>
+                <label for="mail">E-mail&nbsp;:</label>
+                <input type="email" id="mail" name="user_email" />
+              </li>
+              <li>
+                <label for="msg">Problematique&nbsp;:</label>
+                <textarea id="msg" name="user_message"></textarea>
+              </li>
+            </ul>
+            <button > <a href=""></a>Envoyer un</button>
+          </form>
+          <!-- Fin du formulaire -->
+          
+
+        <!-- Pied de page -->
+
+        <footer>
+            <hr>
+            <p>&copy; 2023 - MRP_YB - Tout droits réservés</p>
+        </footer>
+
+    </body>
+</html>
